@@ -24,6 +24,7 @@ class ImageTabActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_image_tab)
+        initView(savedInstanceState)
     }
 
     private fun initView(savedInstanceState: Bundle?) {
